@@ -1,0 +1,70 @@
+
+
+.main{
+  background-color: #9359BF;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  align-content: center;
+}
+
+.ipt-container{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 3.5rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.form{
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0rem 2rem 2rem 2rem;
+  background-color: white;
+  width: 30rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button{
+  margin-top: 3rem;
+  transition: all .5s ease;
+  border: 1rem;
+  background-color: #6FB555;
+  color: white;
+
+}
+
+.button:hover{
+  background-color: white;
+  color:  #6FB555;
+  border: 1px solid  #6FB555;
+}
+.button:disabled{
+  background-color: #dddddd;
+  color:  white;
+  
+}
+
+.ipt{
+  width: 15rem;
+  border-radius: 5px;
+  padding: .5rem;
+  margin-top: .5rem;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+}
+
+.check{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: small;
+}
